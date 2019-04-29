@@ -14,7 +14,6 @@
 			"delay": 0
 		},
 		"modules": { /* 模块配置 */
-
 		},
 		"distribute": { /* 应用发布信息 */
 			"android": { /* android打包配置 */
@@ -59,5 +58,20 @@
 			"urlCheck": false
 		},
 		"usingComponents": true
+	},
+	"h5": {
+		"devServer": {
+			"port": 8080,
+			"disableHostCheck": true,
+			"proxy": {
+				"/dpc": {
+					"target": "http://gsit.nttdatadm.com:8010",
+					"changeOrigin": true,
+					"pathRewrite": {
+						"^/dpc": "/"
+					  }
+				}
+			}
+		}
 	}
 }

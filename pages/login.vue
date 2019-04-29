@@ -17,15 +17,39 @@ export default {
     name:'Login',
     data(){
         return{
-            name:'root',
-            pwd:'root'
+            name: 'root',
+            pwd: 'root'
         }
     },
     methods:{
         submit(){
             // 当带有选项卡(tabBar)的时候不支持uni.navigateTo进行跳转
-            uni.switchTab({
-                url:'./home'
+            // uni.switchTab({
+            //     url:'./home'
+            // })
+            uni.showToast({
+                title: '登录中',
+                icon: 'loading',
+            });
+            this.$axios(this.$baseUrl.login)
+            .then(res => {
+                if(res.code === 'success'){
+                    uni.showToast({
+                        title: '登录成功',
+                        duration: 2000
+                    });
+                    setTimeout(function(){
+                        uni.switchTab({
+                            url:'./home'
+                        })
+                    },2000)
+                } else {
+                    uni.showToast({
+                        title: '登录失败',
+                        icon: 'none',
+                        duration: 2000
+                    });
+                }
             })
         }
     }
@@ -36,9 +60,9 @@ export default {
 .login{
     background: url('../static/bg.jpg') no-repeat;
     width: 100%;
-    height: 467px;
+    height: 934upx;
     color: #333;
-    padding-top: 200px;
+    padding-top: 400upx;
     .center{
         width: 260px;
         margin: 0 auto;

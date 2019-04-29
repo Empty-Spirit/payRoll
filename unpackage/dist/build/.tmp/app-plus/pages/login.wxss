@@ -1,0 +1,30 @@
+.login.data-v-ec8ef54a {
+  background: url(../../static/img/bg.d117f925.jpg) no-repeat;
+  width: 100%;
+  height: 934rpx;
+  color: #333;
+  padding-top: 400rpx;
+}
+.login .center.data-v-ec8ef54a {
+  width: 260px;
+  margin: 0 auto;
+}
+.login .center.data-v-ec8ef54a :first-child {
+  margin-bottom: 10px;
+}
+.login input.data-v-ec8ef54a {
+  border: 1px solid #666;
+  margin-left: 10px;
+  font-size: 14px;
+  width: 200px;
+}
+.login .submit.data-v-ec8ef54a {
+  width: 260px;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  margin-top: 50px;
+  background: #fff;
+  opacity: 0.5;
+}
+

@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/login",
+    "pages/home",
+    "pages/search",
+    "pages/nav",
+    "pages/person"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#cdcdcd",
+    "selectedColor": "#39cffc",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home",
+        "iconPath": "static/home/home.png",
+        "selectedIconPath": "static/home/homeF.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/search",
+        "iconPath": "static/supervise/supervise.png",
+        "selectedIconPath": "static/supervise/superviseF.png",
+        "text": "管理"
+      },
+      {
+        "pagePath": "pages/nav",
+        "iconPath": "static/nav/nav.png",
+        "selectedIconPath": "static/nav/navF.png",
+        "text": "导航"
+      },
+      {
+        "pagePath": "pages/person",
+        "iconPath": "static/person/person.png",
+        "selectedIconPath": "static/person/personF.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "firstApp",
+  "compilerVersion": "1.9.3",
+  "usingComponents": {}
+}

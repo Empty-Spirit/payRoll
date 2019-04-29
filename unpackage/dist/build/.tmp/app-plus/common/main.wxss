@@ -1,0 +1,26 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*每个页面公共css */
+
+input {
+  display: inline-block;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+}
+input :focus {
+  outline: none;
+}
+
