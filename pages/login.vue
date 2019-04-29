@@ -23,7 +23,8 @@ export default {
     },
     methods:{
         submit(){
-            uni.navigateTo({
+            // 当带有选项卡(tabBar)的时候不支持uni.navigateTo进行跳转
+            uni.switchTab({
                 url:'./home'
             })
         }

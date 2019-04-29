@@ -64,27 +64,27 @@
             }
         ]
     },
-	"condition": { 
-        "current": 1,
+	"condition": { //模式配置，仅开发期间生效
+        "current": 1, //当前激活的模式（list 的索引项）
         "list": [{
-                "name": "首页",
-                "path": "pages/home",
-                "query": ""
+                "name": "首页", //模式名称
+                "path": "pages/home", //启动页面，必选
+                "query": "" //启动参数，在页面的onLoad函数里面得到。uid=100&t=1535987051
             },
             {
-                "name": "管理",
-                "path": "pages/search",
-                "query": "" 
+                "name": "管理", //模式名称
+                "path": "pages/search", //启动页面，必选
+                "query": "" //启动参数，在页面的onLoad函数里面得到。
             },
             {
-                "name": "导航",
-                "path": "pages/nav",
-                "query": ""
+                "name": "导航", //模式名称
+                "path": "pages/nav", //启动页面，必选
+                "query": "" //启动参数，在页面的onLoad函数里面得到。uid=100&t=1535987051
             },
             {
-                "name": "我的",
-                "path": "pages/person",
-                "query": "" 
+                "name": "我的", //模式名称
+                "path": "pages/person", //启动页面，必选
+                "query": "" //启动参数，在页面的onLoad函数里面得到。
             }
         ]
     }
