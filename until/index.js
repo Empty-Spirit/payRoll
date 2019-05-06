@@ -17,6 +17,7 @@ const httpServer = (opts, data) => {
     let promise = new Promise(function(resolve, reject) {
         uni.request(httpDefaultOpts).then(
             (res) => {
+				console.log(JSON.parse(res[1].data))
                 resolve(JSON.parse(res[1].data))
             }
         ).catch(

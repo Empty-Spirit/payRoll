@@ -1,27 +1,28 @@
+// 打包成app 的url
+const baseUrl = 'http://39.108.164.222/'
 
-// 线上域名 跨域
-const  baseUrl = 'dpc/'
+// 线上服务器跨域
+const  testUrl = 'dpc/'
 
-// 测试域名
-const testUrl = 'http://gsit.nttdatadm.com:8010/'
-
-//本地域名
-const localUrl = 'http://test.com' 
+//本地服务器跨域
+const localUrl = 'api/' 
 
 
 const Url = baseUrl
 
+
 const serviceModule = {
-    login: {
-        url: Url+'api/geely/campaign/dealer/get?seriesCode=yjsuv&province=210&city=221001',
-        method: 'get'
-    }
+	login: {
+		url: Url + 'payRollP/php/login.php',
+		method: 'post'
+	},
+	resert: {
+		url: Url + 'payRollP/php/resert.php',
+		method: 'post'
+	}
 };
 
 
 const ApiSetting = { ...serviceModule
 }
 export default ApiSetting
-
-
-// http://gsit.nttdatadm.com:8010/api/geely/campaign/dealer/get?seriesCode=yjsuv&province=210&city=221001

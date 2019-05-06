@@ -1,24 +1,28 @@
-.login.data-v-ec8ef54a {
-  background: url(../../static/img/bg.d117f925.jpg) no-repeat;
-  width: 100%;
-  height: 934rpx;
+.login.data-v-5f67b731 {
+  position: absolute;
+  background: url('http://39.108.164.222/payRollP/image/bg.jpg') no-repeat;
+  background-size: 100% 1624rpx;
+  left: 0rpx;
+  right: 0rpx;
+  bottom: 0rpx;
+  top: 0rpx;
   color: #333;
   padding-top: 400rpx;
 }
-.login .center.data-v-ec8ef54a {
+.login .center.data-v-5f67b731 {
   width: 260px;
   margin: 0 auto;
 }
-.login .center.data-v-ec8ef54a :first-child {
+.login .center.data-v-5f67b731 :first-child {
   margin-bottom: 10px;
 }
-.login input.data-v-ec8ef54a {
+.login input.data-v-5f67b731 {
   border: 1px solid #666;
   margin-left: 10px;
   font-size: 14px;
   width: 200px;
 }
-.login .submit.data-v-ec8ef54a {
+.login .submit.data-v-5f67b731 {
   width: 260px;
   text-align: center;
   height: 40px;
@@ -26,5 +30,11 @@
   margin-top: 50px;
   background: #fff;
   opacity: 0.5;
+}
+.login .forget.data-v-5f67b731 {
+  float: right;
+  margin-top: 20rpx;
+  opacity: 0.8;
+  text-decoration: underline;
 }
 

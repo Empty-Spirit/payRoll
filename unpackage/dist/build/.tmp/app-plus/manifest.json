@@ -4,8 +4,8 @@
     "iPhone",
     "iPad"
   ],
-  "id": "",
-  "name": "firstApp",
+  "id": "__UNI__8E087F2",
+  "name": "payRoll",
   "version": {
     "name": "1.0.0",
     "code": "100"
@@ -87,7 +87,7 @@
       }
     },
     "uni-app": {
-      "compilerVersion": "1.9.3",
+      "compilerVersion": "1.9.4",
       "control": "v8"
     },
     "secondwebview": {

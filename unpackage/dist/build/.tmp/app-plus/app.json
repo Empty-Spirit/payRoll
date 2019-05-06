@@ -4,7 +4,8 @@
     "pages/home",
     "pages/search",
     "pages/nav",
-    "pages/person"
+    "pages/person",
+    "pages/resert/resert"
   ],
   "subPackages": [],
   "window": {
@@ -49,7 +50,7 @@
     "alwaysShowBeforeRender": true,
     "autoclose": false
   },
-  "appname": "firstApp",
-  "compilerVersion": "1.9.3",
+  "appname": "payRoll",
+  "compilerVersion": "1.9.4",
   "usingComponents": {}
 }

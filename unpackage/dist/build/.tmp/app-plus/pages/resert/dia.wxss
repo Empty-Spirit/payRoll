@@ -1,0 +1,24 @@
+.dia.data-v-b33fa77c {
+  width: 600rpx;
+  height: 350rpx;
+  background: #fff;
+  padding-top: 50px;
+  border-radius: 30rpx;
+}
+.dia .title.data-v-b33fa77c {
+  display: inline-block;
+  width: 170rpx;
+}
+.dia .pwd.data-v-b33fa77c {
+  width: 580rpx;
+  margin: 0 auto;
+  margin-bottom: 50rpx;
+}
+.dia input.data-v-b33fa77c {
+  width: 400rpx;
+  border: 1px solid #bbb;
+}
+.dia .submit.data-v-b33fa77c {
+  width: 200rpx;
+}
+
