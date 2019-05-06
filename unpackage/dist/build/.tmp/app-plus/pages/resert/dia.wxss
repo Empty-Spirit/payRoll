@@ -1,24 +1,24 @@
-.dia.data-v-b33fa77c {
+.dia.data-v-a2f947b0 {
   width: 600rpx;
   height: 350rpx;
   background: #fff;
   padding-top: 50px;
   border-radius: 30rpx;
 }
-.dia .title.data-v-b33fa77c {
+.dia .title.data-v-a2f947b0 {
   display: inline-block;
   width: 170rpx;
 }
-.dia .pwd.data-v-b33fa77c {
+.dia .pwd.data-v-a2f947b0 {
   width: 580rpx;
   margin: 0 auto;
   margin-bottom: 50rpx;
 }
-.dia input.data-v-b33fa77c {
+.dia input.data-v-a2f947b0 {
   width: 400rpx;
   border: 1px solid #bbb;
 }
-.dia .submit.data-v-b33fa77c {
+.dia .submit.data-v-a2f947b0 {
   width: 200rpx;
 }
 

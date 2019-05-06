@@ -21,8 +21,8 @@ export default {
     data(){
         return{
             params:{
-				userName: '',
-				password: ''
+				userName: 'root',
+				password: 'root'
 			}
         }
     },

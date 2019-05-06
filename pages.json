@@ -18,9 +18,9 @@
 				"navigationBarTitleText": "管理"
 			}
 		},{
-			"path": "pages/nav",
+			"path": "pages/clock",
 			"style": {
-				"navigationBarTitleText": "导航"
+				"navigationBarTitleText": "打卡"
 			}
 		},{
 			"path": "pages/person",
@@ -57,10 +57,10 @@
                 "text": "管理"
             },
             {
-                "pagePath": "pages/nav",
-                "iconPath": "static/nav/nav.png",
-                "selectedIconPath": "static/nav/navF.png",
-                "text": "导航"
+                "pagePath": "pages/clock",
+                "iconPath": "static/clock/clock.png",
+                "selectedIconPath": "static/clock/clockF.png",
+                "text": "打卡"
             }, {
                 "pagePath": "pages/person",
                 "iconPath": "static/person/person.png",
@@ -70,8 +70,12 @@
         ]
     },
 	"condition": { 
-        "current": 1,
+        // "current": 2,
         "list": [{
+                "name": "",
+                "path": "pages/login",
+                "query": ""
+            },{
                 "name": "首页",
                 "path": "pages/home",
                 "query": ""
@@ -82,8 +86,8 @@
                 "query": "" 
             },
             {
-                "name": "导航",
-                "path": "pages/nav",
+                "name": "打卡",
+                "path": "pages/clock",
                 "query": ""
             },
             {

@@ -1,4 +1,4 @@
-.resert.data-v-86470666 {
+.resert.data-v-d7d3c9ce {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -7,16 +7,16 @@
   padding-top: 100rpx;
   background: #dfdfdf;
 }
-.resert .problem.data-v-86470666 {
+.resert .problem.data-v-d7d3c9ce {
   width: 400rpx;
   margin: 0 auto;
 }
-.resert input.data-v-86470666 {
+.resert input.data-v-d7d3c9ce {
   border: 1px solid #bbb;
   margin-top: 30rpx;
   margin-bottom: 50rpx;
 }
-.resert .content.data-v-86470666 {
+.resert .content.data-v-d7d3c9ce {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -25,7 +25,7 @@
   z-index: 100;
   background: rgba(221, 221, 221, 0.5);
 }
-.resert .content .dialog.data-v-86470666 {
+.resert .content .dialog.data-v-d7d3c9ce {
   position: absolute;
   top: 50%;
   left: 50%;

@@ -1,0 +1,1 @@
+<view bind:__l="__l"><view>您当前位置：</view><view>{{address}}</view></view>
